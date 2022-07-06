@@ -4,6 +4,7 @@ const OrderProducts = (props) => {
     const { name, quantity, price, key } = props.product;
     const { handleRemove } = props;
     return (
+        
         <div>
             <h3 className="product-name">{name}</h3>
             <h4>Quantity: {quantity}</h4>
