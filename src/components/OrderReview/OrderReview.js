@@ -13,7 +13,7 @@ const OrderReview = () => {
         const newCart = cart.filter(product => product.key !== key);
         setCart(newCart);
         removeFromDb(key)
-    }
+    };
 
     return (
         <div className="shop-container">
