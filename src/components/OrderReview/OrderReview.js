@@ -14,7 +14,7 @@ const OrderReview = () => {
     const handleRemove = key => {
         const newCart = cart.filter(product => product.key !== key);
         setCart(newCart);
-        removeFromDb(key)
+        removeFromDb(key);
     };
 
     const handlePlaceOrder = () => {
