@@ -37,7 +37,7 @@ const Shop = () => {
     }, [products]);
 
     const handleAddToCart = (product) => {
-        const exists = cart.find(pd => pd.key === product.key)
+        const exists = cart.find(pd => pd.key === product.key);
         let newCart = [];
         if (exists) {
             const remaining = cart.filter(pd => pd.key !== product.key)
@@ -49,7 +49,6 @@ const Shop = () => {
             newCart = [...cart, product];
 
         }
-
         setCart(newCart);
         // save to local storage (for now)
         addToDb(product.key);
