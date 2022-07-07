@@ -53,7 +53,7 @@ const Shop = () => {
         setCart(newCart);
         // save to local storage (for now)
         addToDb(product.key);
-    }
+    };
 
     const handleSearch = event => {
         const searchText = event.target.value;
