@@ -23,7 +23,7 @@ const OrderReview = () => {
         setCart([]);
         // empty localStorage.....
         clearTheCart();
-    }
+    };
 
     return (
         <div className="shop-container">
