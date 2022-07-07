@@ -61,7 +61,7 @@ const Shop = () => {
         const matchedProducts = products.filter(product => product.name.toLowerCase().includes(searchText.toLowerCase()));
 
         setDisplayProducts(matchedProducts);
-    }
+    };
 
     return (
         <>
