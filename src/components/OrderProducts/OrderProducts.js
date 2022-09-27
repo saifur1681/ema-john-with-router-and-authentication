@@ -4,10 +4,10 @@ const OrderProducts = (props) => {
     const { name, quantity, price, key } = props.product;
     const { handleRemove } = props;
     return (
-        
+
         <div>
-            <h3 className="product-name">{name}</h3>
-            <h4>Quantity: {quantity}</h4>
+            <h2 className="product-name">{name}</h2>
+            <h2>Quantity: {quantity}</h2>
             <h5>$ {price}</h5>
             <button
                 onClick={() => handleRemove(key)}

@@ -1,0 +1,70 @@
+.form-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.login-container {
+    width: 500px;
+    background: #FFFFFF;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+.input-field label {
+    display: block;
+    margin-left: 5px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.input-field input {
+    width: 415px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.card-button {
+    width: 421px;
+    height: 55px;
+    background: rgba(255, 153, 0, 0.6);
+    border-radius: 5px;
+    border: none;
+    font-size: 23px;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-style: normal;
+}
+
+.card-link-container {
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.card-link-style {
+    text-decoration: none;
+    color: #FF9900;
+}
+
+.card-button:hover {
+    background: rgba(255, 153, 0, 0.9);
+}
