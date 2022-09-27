@@ -18,7 +18,7 @@ const OrderReview = () => {
     };
 
     const handlePlaceOrder = () => {
-        navigate('/placeOrder');
+        navigate('/shipment');
         // empty cart.....
         setCart([]);
         // empty localStorage.....
